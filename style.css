@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle, #111, #000);
+  font-family: sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.sub {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 25px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(45deg, #ff4d6d, #ff758f);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 77, 109, 0.6);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.hidden {
+  display: none;
+}
+
+#typing p {
+  margin: 10px 0;
+  opacity: 0;
+  transition: 0.8s;
+  font-size: 18px;
+}
+
+img {
+  max-height: 100%;
+  height: auto;
+}
