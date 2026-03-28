@@ -5,9 +5,9 @@ const typing = document.getElementById("typing");
 const music = document.getElementById("music");
 
 const lines = [
-  "ai gak jago bikin kata-kata…",
-  "tapi sejak kenal u,",
+  "semenjak kenal u,",
   "hari-hari ai jadi beda.",
+  "cuma chat dari u yang ai tunggu…",
   "",
   "ai jadi sering senyum sendiri 🗿",
   "padahal gak ada yang lucu 😭",
@@ -268,7 +268,7 @@ function startFlowers() {
     setTimeout(() => {
       flower.remove();
     }, 4000);
-  }, 600);
+  }, 700);
 }
 
 // 💡 LED
